@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    background-image: url(gipy.gif);
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 100px;
+    background-color: rgb(10, 10, 58);
+    display: flex;
+    position: fixed; width: 100%; top: 0;
+
+}
+.navitem{
+    display: flex;
+    margin-left: 300px;
+    margin-right:500px;
+}
+.logo{
+    color: rgb(252, 0, 0);
+    margin-top: 30px;
+    margin-left: 00px;
+    font-size: 35px;
+}
+.navitems{
+    margin-left: 80px;
+    margin-right: 20px;
+    margin-top: 45px;
+    font-size: 20px;
+}
+.navitemss{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+.navitemss:hover{
+    color:rgb(255, 255, 0);
+    text-shadow: 0 0 20px rgb(0, 200, 255),
+                0 0 40px rgb(0, 200, 255),
+                0 0 60px rgb(0, 200, 255),
+                0 0 80px rgb(0, 200, 255),
+                0 0 100px rgb(0, 200, 255);
+    transition: 0.2s ease-in-out;
+}
+body{
+    background-color: rgb(0, 0, 33);
+}
+.namediv{
+    color: #FFF;
+    font-size: 54px;
+    margin-top: 100PX;
+    margin-left: 100px;
+    margin-right: 100px;
+    min-width: 600px;
+}
+.name{
+    color: rgb(81, 212, 33);
+    font-family: 'Leckerli One';
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline rgb(169, 169, 24);
+
+}
+.intro{
+    font-family: 'Lalezar';
+    font-size: 60px;
+}
+.service{
+    font-family: sans-serif;
+    margin-top: 50px;
+}
+.images{
+    height: 400px;
+    width: 400px;
+    margin-top: 38%;
+}
+.homee{
+    display: flex;
+}
+.auto-type{
+    color: rgb(255, 255, 0);
+    font-weight: bold;
+}
+.resume{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(to right top, #c30076, #d80662, #e6264c, #ec4333, #eb5f12);
+    border-radius: 8px;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: 1s;
+    font-family: 'Times New Roman', Times, serif;
+}
+.resume:hover{
+    text-decoration: none;
+    color: rgb(0, 255, 238);
+    background-image: linear-gradient(to right top, #c30076, #d80662, #e6264c, #ec4333, #eb5f12);
+    border-radius: 8px;
+    font-size: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.aboutt{
+    height: 850px;
+    color: rgb(0, 255, 51);
+    font-size: 30px;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ab{
+    text-align: center;
+    color: red;
+    margin-left: 250px;
+    font-size: 50px;
+}
+.quali{
+    margin-left: 50px;
+    text-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 30px rgb(0, 0, 0),
+                0 0 40px rgb(0, 0, 0),
+                0 0 50px rgb(0,0,0);
+}
+.qua{
+    margin-left: 100px;
+    color: white;
+    font-family: sans-serif;
+}
+.hob{
+    margin-left: 130px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: yellow;
+
+    text-shadow: 0 0 10px rgb(0, 0, 0),
+                0 0 20px rgb(0, 0, 0),
+                0 0 30px rgb(0, 0, 0);
+}
+
+table{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 1515px;
+    color: white;
+    margin-top: 50px;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 1515px;
+    color: white;
+    height: 42px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+th{
+    border: 1px solid rgb(253, 253, 253);
+    border-collapse: collapse;
+    width: 1515px;
+    color: rgb(218, 19, 19);
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 0);
+    height: 55px;
+}
+#headingg{
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gmail{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.svg{
+    text-align: center;
+}
+.copyright{
+    height: 50px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    display: flex;
+}
+.san, .cop{
+    margin-right: 290px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
